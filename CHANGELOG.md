@@ -56,6 +56,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## movies-dataset-case-study
 
+### 2026-08-22 (4)
+
+- **Share phase**: built 5 client-facing visualizations (budget vs revenue, genre ROI ranking,
+  genre rating ranking, budget-tier rating, release-month seasonality) using a blue/sequential-
+  ramp palette, in
+  [`notebooks/03_share_visualizations.ipynb`](./movies-dataset-case-study/notebooks/03_share_visualizations.ipynb).
+  PNGs in `images/`, written up in
+  [`docs/05_share.md`](./movies-dataset-case-study/docs/05_share.md).
+
 ### 2026-08-22 (3)
 
 - **Analyze phase**: correlations (budget-revenue, budget-roi, budget-rating), genre-level
