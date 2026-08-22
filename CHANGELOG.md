@@ -5,6 +5,14 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## avocado-prices-case-study
 
+### 2026-08-22 (4)
+
+- **Act phase**: final conclusion and top 3 recommendations in
+  [`docs/06_act.md`](./avocado-prices-case-study/docs/06_act.md) — adopt regional pricing, build
+  inventory/promo calendars around the confirmed seasonal cycle, and treat 2017 as a live
+  supply-shock case study for contingency planning.
+- **Case study complete** — marked as ✅ in the main portfolio README.
+
 ### 2026-08-22 (3)
 
 - **Share phase**: built 5 client-facing visualizations (price by type, seasonality, price trend,

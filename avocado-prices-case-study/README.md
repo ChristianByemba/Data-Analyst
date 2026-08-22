@@ -11,7 +11,13 @@ prices and volume vary by region, season, and type — to inform pricing and pur
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
 5. [Share](./docs/05_share.md) — visualizations & key findings ✅
-6. Act — final recommendations (🚧 next)
+6. [Act](./docs/06_act.md) — final recommendations ✅
+
+## Top recommendation
+
+Adopt **regional pricing** instead of a national flat rate — conventional avocado prices vary 55%
+across the 8 major US regions, a consistent multi-year pattern. Full reasoning and 2 more
+recommendations in [docs/06_act.md](./docs/06_act.md).
 
 ## Key finding
 
