@@ -5,6 +5,14 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## cyclistic-bike-share-case-study
 
+### 2026-08-22 (5)
+
+- **Act phase**: wrote the final conclusion and top 3 recommendations in
+  [`docs/06_act.md`](./cyclistic-bike-share-case-study/docs/06_act.md) — pitch membership as a
+  leisure/weekend value plan, time the campaign to the May–September casual-ridership surge, and
+  target digital media to casual riders' actual active hours instead of commute hours.
+- **Case study complete** — marked as ✅ in the main portfolio README.
+
 ### 2026-08-22 (4)
 
 - **Share phase**: built 5 executive-facing visualizations (average ride length, rides by day of

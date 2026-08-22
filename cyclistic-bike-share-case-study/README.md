@@ -14,7 +14,14 @@ This project follows the six-phase data analysis process:
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
 5. [Share](./docs/05_share.md) — visualizations & key findings ✅
-6. Act — final recommendations (🚧 next)
+6. [Act](./docs/06_act.md) — final recommendations ✅
+
+## Top recommendation
+
+Pitch membership as a **leisure/weekend value plan**, timed to the May–September casual-ridership
+surge, with digital touchpoints during casual riders' actual active hours (weekend and weekday
+afternoons) rather than commute hours. Full reasoning and 2 more recommendations in
+[docs/06_act.md](./docs/06_act.md).
 
 ## Key finding
 
@@ -30,7 +37,8 @@ cyclistic-bike-share-case-study/
 ├── docs/         # write-ups for each phase (Ask, Prepare, Process, Analyze, Share, Act)
 ├── data/
 │   ├── raw/      # original downloaded data (not committed — see data/raw/README.md)
-│   └── processed/# cleaned/merged datasets used for analysis
+│   ├── processed/# cleaned/merged datasets used for analysis (not committed — large)
+│   └── summary/  # small aggregate tables used to build the Share-phase charts
 ├── notebooks/    # Python (pandas/Jupyter) analysis
 ├── sql/          # SQL scripts
 └── images/       # exported charts/visualizations
