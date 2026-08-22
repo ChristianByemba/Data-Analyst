@@ -5,6 +5,16 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## world-happiness-case-study
 
+### 2026-08-22 (4)
+
+- **Analyze phase**: factor correlations, regional averages, a 5-year trend, and top/bottom-10
+  country comparisons in
+  [`notebooks/02_analyze_data.ipynb`](./world-happiness-case-study/notebooks/02_analyze_data.ipynb).
+  Key finding: GDP per capita and health/life expectancy are the strongest correlates of
+  happiness (r=0.79, r=0.74); generosity is the weakest (r=0.14) despite being a headline factor.
+  Sub-Saharan Africa trails all regions by ~3 points. Full write-up in
+  [`docs/04_analyze.md`](./world-happiness-case-study/docs/04_analyze.md).
+
 ### 2026-08-22 (3)
 
 - **Process phase**: two cross-validated pipelines (pandas notebook + DuckDB SQL) standardize the
