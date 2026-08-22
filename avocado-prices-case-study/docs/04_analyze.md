@@ -21,6 +21,16 @@ double-counting risk identified in Prepare/Process.
 6. **Organic is small but growing fast**: only 2.8% of total volume, but its volume grew ~87%
    from 2015 to 2017, roughly 8x the conventional growth rate (~11%) over the same span.
 
+## Data quality note found while charting
+
+Plotting the monthly price trend (chart 3 in Share) surfaced one likely data artifact: **national
+organic price is exactly $1.00 for all 4 weeks of July 2015** — an unusually round, unvarying
+number compared to every other month (which show normal cent-level variation). This looks like a
+placeholder or reporting gap in the source data for that single month, not a genuine market price.
+It wasn't caught in the Prepare/Process null/duplicate checks because the value is technically
+valid (not null, not negative) — a reminder that "no nulls" doesn't mean "no anomalies." Left
+in the dataset and visible in the trend chart, but should not be read as a real price signal.
+
 ## Interpretation
 
 The data supports a clear, actionable pricing and inventory picture for a retail client: demand is

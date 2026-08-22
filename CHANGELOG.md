@@ -5,6 +5,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## avocado-prices-case-study
 
+### 2026-08-22 (3)
+
+- **Share phase**: built 5 client-facing visualizations (price by type, seasonality, price trend,
+  regional variation, price-vs-volume) using a consistent blue/orange palette, in
+  [`notebooks/03_share_visualizations.ipynb`](./avocado-prices-case-study/notebooks/03_share_visualizations.ipynb).
+  While charting, caught a data-quality artifact: national organic price is exactly $1.00 for all
+  4 weeks of July 2015 (documented in `docs/04_analyze.md`, retroactively). PNGs in `images/`,
+  written up in [`docs/05_share.md`](./avocado-prices-case-study/docs/05_share.md).
+
 ### 2026-08-22 (2)
 
 - **Analyze phase**: price by type, seasonality, price trend, regional variation, price-volume
