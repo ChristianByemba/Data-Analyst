@@ -5,6 +5,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## amazon-bestselling-books-case-study
 
+### 2026-08-22 (5)
+
+- **Act phase**: final conclusion and top 3 recommendations in
+  [`docs/06_act.md`](./amazon-bestselling-books-case-study/docs/06_act.md) — treat review-count
+  growth (not rating or genre) as the leading staying-power indicator, build a separate
+  acquisition track for evergreen reference/utility titles, and don't treat this decade-old
+  dataset's price/rating averages as current benchmarks.
+- **Case study complete** — marked as ✅ in the main portfolio README.
+
 ### 2026-08-22 (4)
 
 - **Share phase**: built 5 client-facing visualizations (times_on_list distribution, reviews by

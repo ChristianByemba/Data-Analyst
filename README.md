@@ -13,7 +13,7 @@ others independent. Most projects follow the full data analysis process: **Ask, 
 | [World Happiness Report Case Study](./world-happiness-case-study) | Which factors are most strongly associated with national happiness, and does that hold across regions? | Python (pandas), SQL | ✅ Complete |
 | [Avocado Prices Case Study](./avocado-prices-case-study) | How do avocado prices and volume vary by region, season, and type? | Python (pandas), SQL | ✅ Complete |
 | [Movies Dataset Case Study](./movies-dataset-case-study) | Which movie characteristics are most associated with financial return and audience rating? | Python (pandas), SQL | 🚧 In progress |
-| [Amazon Bestselling Books Case Study](./amazon-bestselling-books-case-study) | What characterizes a repeat Amazon bestseller (2009–2019)? | Python (pandas), SQL | 🚧 In progress |
+| [Amazon Bestselling Books Case Study](./amazon-bestselling-books-case-study) | What characterizes a repeat Amazon bestseller (2009–2019)? | Python (pandas), SQL | ✅ Complete |
 
 More projects will be added here as they are completed.
 
