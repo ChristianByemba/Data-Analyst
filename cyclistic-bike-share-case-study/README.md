@@ -13,8 +13,15 @@ This project follows the six-phase data analysis process:
 2. [Prepare](./docs/02_prepare.md) — data sources, organization, credibility ✅
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
-5. Share — visualizations & key findings (🚧 next)
-6. Act — final recommendations
+5. [Share](./docs/05_share.md) — visualizations & key findings ✅
+6. Act — final recommendations (🚧 next)
+
+## Key finding
+
+![Rides by hour of day](./images/03_rides_by_hour.png)
+
+Members show a textbook two-peak commute profile; casual riders show one broad afternoon peak
+with no morning rush. See [docs/05_share.md](./docs/05_share.md) for the full set of visualizations.
 
 ## Repo structure
 

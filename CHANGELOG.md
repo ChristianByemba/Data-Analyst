@@ -5,6 +5,17 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## cyclistic-bike-share-case-study
 
+### 2026-08-22 (4)
+
+- **Share phase**: built 5 executive-facing visualizations (average ride length, rides by day of
+  week, rides by hour of day, rides by month, weekday vs. weekend split) using a consistent
+  two-color palette (blue = members, orange = casual riders) in
+  [`notebooks/03_share_visualizations.ipynb`](./cyclistic-bike-share-case-study/notebooks/03_share_visualizations.ipynb).
+  PNGs saved to `images/` (committed) and written up in
+  [`docs/05_share.md`](./cyclistic-bike-share-case-study/docs/05_share.md).
+- Added the hour-of-day chart (clearest commute-vs-leisure signal) as the case study README's
+  key-finding preview image.
+
 ### 2026-08-22 (3)
 
 - **Analyze phase**: computed ride-length stats, day-of-week / monthly / hourly breakdowns, bike
