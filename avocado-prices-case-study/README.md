@@ -7,9 +7,9 @@ prices and volume vary by region, season, and type — to inform pricing and pur
 ## Process
 
 1. [Ask](./docs/01_ask.md) — business task & stakeholders ✅
-2. Prepare — data sources, organization, credibility
-3. Process — cleaning & transformation
-4. Analyze — trends & calculations
+2. [Prepare](./docs/02_prepare.md) — data sources, organization, credibility ✅
+3. [Process](./docs/03_process.md) — cleaning & transformation ✅
+4. Analyze — trends & calculations (🚧 next)
 5. Share — visualizations & key findings
 6. Act — final recommendations
 

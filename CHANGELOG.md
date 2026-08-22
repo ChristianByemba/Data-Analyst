@@ -3,6 +3,19 @@
 All notable changes to this repository are documented here, organized by project. Format loosely
 follows [Keep a Changelog](https://keepachangelog.com/).
 
+## avocado-prices-case-study
+
+### 2026-08-22
+
+- **Prepare phase**: ROCCC assessment in
+  [`docs/02_prepare.md`](./avocado-prices-case-study/docs/02_prepare.md). Key finding: the
+  `region` column is a 3-level hierarchy (`TotalUS` → 8 major regions → 45 city markets), not 54
+  independent regions — the 8 major regions sum to exactly `TotalUS`; naively summing all 54
+  would overcount volume ~3-4x.
+- **Process phase**: two cross-validated pipelines (pandas + DuckDB) tag each row with its
+  `region_tier` and drop a leftover index column. No invalid prices/volumes found. Documented in
+  [`docs/03_process.md`](./avocado-prices-case-study/docs/03_process.md).
+
 ## world-happiness-case-study
 
 ### 2026-08-22 (6)
