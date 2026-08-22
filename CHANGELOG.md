@@ -5,6 +5,16 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## avocado-prices-case-study
 
+### 2026-08-22 (2)
+
+- **Analyze phase**: price by type, seasonality, price trend, regional variation, price-volume
+  correlation, and organic growth in
+  [`notebooks/02_analyze_data.ipynb`](./avocado-prices-case-study/notebooks/02_analyze_data.ipynb).
+  Key findings: organic carries a ~42% price premium, both types peak in Sep/Oct and bottom in
+  Jan/Feb, 2017 saw a sharp price spike (matching the real 2017 supply shortage), regional prices
+  vary up to 55%, and organic volume grew ~8x faster than conventional (2015-2017). Full write-up
+  in [`docs/04_analyze.md`](./avocado-prices-case-study/docs/04_analyze.md).
+
 ### 2026-08-22
 
 - **Prepare phase**: ROCCC assessment in
