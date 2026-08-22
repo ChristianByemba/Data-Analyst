@@ -11,7 +11,7 @@ Professional Certificate. Client scenario: a film production/investment company 
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
 5. [Share](./docs/05_share.md) — visualizations & key findings ✅
-6. Act — final recommendations (🚧 next)
+6. [Act](./docs/06_act.md) — final recommendations ✅
 
 ## Repo structure
 

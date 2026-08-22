@@ -56,6 +56,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## movies-dataset-case-study
 
+### 2026-08-22 (5)
+
+- **Act phase**: final conclusion and top 3 recommendations in
+  [`docs/06_act.md`](./movies-dataset-case-study/docs/06_act.md) — treat genre as two separate
+  tracks (chase ROI vs. chase prestige) with Animation as the rare double-winner, flag the
+  $5-100M "mid-budget" range as the weakest historical ROI zone, and lock release scheduling into
+  the confirmed June/July and Nov/Dec strong windows.
+- **Case study complete** — marked as ✅ in the main portfolio README.
+
 ### 2026-08-22 (4)
 
 - **Share phase**: built 5 client-facing visualizations (budget vs revenue, genre ROI ranking,
