@@ -10,8 +10,15 @@ most strongly associated with national happiness, and does that hold across regi
 2. [Prepare](./docs/02_prepare.md) — data sources, organization, credibility ✅
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
-5. Share — visualizations & key findings (🚧 next)
-6. Act — final recommendations
+5. [Share](./docs/05_share.md) — visualizations & key findings ✅
+6. Act — final recommendations (🚧 next)
+
+## Key finding
+
+![Factor correlations](./images/01_factor_correlations.png)
+
+GDP per capita and health/life expectancy predict happiness far more than generosity does — see
+[docs/05_share.md](./docs/05_share.md) for the full set of visualizations.
 
 ## Repo structure
 

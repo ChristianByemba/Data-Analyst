@@ -11,8 +11,9 @@ Small aggregate tables (reused in the Share phase) are saved to [`data/summary/`
 2. **Regional gap is large**: Australia/NZ (7.27) and North America (7.08) lead; Sub-Saharan
    Africa trails at 4.29 — a roughly 3-point gap on the 0–10 scale, the widest regional spread in
    the data.
-3. **Global happiness rose modestly but consistently, 2015→2019** (5.42 → 5.50 average), measured
-   on the 146 countries present in every year for a fair like-for-like comparison.
+3. **Global happiness dipped slightly in 2016, then climbed every year through 2019** (5.42 →
+   5.41 → 5.42 → 5.45 → 5.50 average), measured on the 146 countries present in every year for a
+   fair like-for-like comparison.
 4. **8 of the top 10 countries (2019) are Western European**; **6 of the bottom 10 are
    Sub-Saharan African**, joined by conflict-affected states (Afghanistan, Yemen, Syria).
 5. **The gap between top-10 and bottom-10 countries is largest for GDP per capita (0.99) and

@@ -5,6 +5,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## world-happiness-case-study
 
+### 2026-08-22 (5)
+
+- **Share phase**: built 5 client-facing visualizations (factor correlations, GDP-vs-happiness
+  scatter, regional averages, 5-year trend, top/bottom-10 factor gap) using a sequential blue
+  ramp for the two ranked charts and plain blue elsewhere, in
+  [`notebooks/03_share_visualizations.ipynb`](./world-happiness-case-study/notebooks/03_share_visualizations.ipynb).
+  PNGs in `images/`, written up in
+  [`docs/05_share.md`](./world-happiness-case-study/docs/05_share.md).
+
 ### 2026-08-22 (4)
 
 - **Analyze phase**: factor correlations, regional averages, a 5-year trend, and top/bottom-10
