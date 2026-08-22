@@ -14,8 +14,9 @@ env/
 # Processed datasets (large, regenerable by running notebooks/ or sql/ scripts)
 **/data/processed/*.parquet
 **/data/processed/*.csv
-# ...except Bellabeat's, which are small enough (<100KB total) to commit for easy reuse
+# ...except these projects', which are small enough (<100KB total) to commit for easy reuse
 !bellabeat-wellness-case-study/data/processed/*.parquet
+!world-happiness-case-study/data/processed/*.parquet
 
 # OS / editor
 .DS_Store

@@ -3,6 +3,17 @@
 All notable changes to this repository are documented here, organized by project. Format loosely
 follows [Keep a Changelog](https://keepachangelog.com/).
 
+## world-happiness-case-study
+
+### 2026-08-22 (3)
+
+- **Process phase**: two cross-validated pipelines (pandas notebook + DuckDB SQL) standardize the
+  5 yearly schemas, reconcile 5 country-name variants (raising the consistent-country count from
+  141/170 to 146/165), backfill `region` for 2017-2019, and merge into a 782-row panel. Caught and
+  fixed a real cross-engine discrepancy: DuckDB doesn't null-out the literal `"N/A"` string the
+  way pandas does. Documented in
+  [`docs/03_process.md`](./world-happiness-case-study/docs/03_process.md).
+
 ## world-happiness-case-study, avocado-prices-case-study, movies-dataset-case-study, amazon-bestselling-books-case-study
 
 ### 2026-08-22 (2)
