@@ -16,6 +16,19 @@ follows [Keep a Changelog](https://keepachangelog.com/).
   would have undercounted a 10-year repeater as two separate 5-year ones, and 3 same-year
   duplicate (Name, Year) rows that differ only by price (likely two formats/editions).
 
+## movies-dataset-case-study
+
+### 2026-08-22
+
+- **Prepare phase**: ROCCC assessment and data-quality findings in
+  [`docs/02_prepare.md`](./movies-dataset-case-study/docs/02_prepare.md). Key findings: `budget`
+  is `0` for 80.4% of rows and `revenue` is `0` for 83.7% (TMDB's "not reported" convention, not a
+  literal $0) — only 5,381 rows have both known, narrowed to 5,312 after excluding placeholder
+  values under $1,000; 6 rows have shifted/corrupted columns (a known issue in this exact dataset,
+  `id` holding a date string etc.) to be dropped in Process; 30 rows share a duplicate `id`
+  (33 fully identical); genre/production fields are stringified Python lists needing
+  `ast.literal_eval`.
+
 ## avocado-prices-case-study
 
 ### 2026-08-22 (4)
