@@ -5,6 +5,17 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## amazon-bestselling-books-case-study
 
+### 2026-08-22 (3)
+
+- **Analyze phase**: repeat-title distribution, genre/price/rating/reviews vs. repeat status, top
+  authors, and a 2009-2019 trend in
+  [`notebooks/02_analyze_data.ipynb`](./amazon-bestselling-books-case-study/notebooks/02_analyze_data.ipynb).
+  Key finding: genre, price, and rating show almost no relationship with repeat-bestseller status
+  (all |r| < 0.13); reviews are the clearest signal (r=0.23) — repeaters average 16,381 reviews vs.
+  7,321 for one-hit-wonders. Average price fell 35% and average reviews more than tripled over the
+  decade. Full write-up in
+  [`docs/04_analyze.md`](./amazon-bestselling-books-case-study/docs/04_analyze.md).
+
 ### 2026-08-22 (2)
 
 - **Process phase**: two cross-validated pipelines (pandas notebook + DuckDB SQL) standardize
@@ -26,6 +37,19 @@ follows [Keep a Changelog](https://keepachangelog.com/).
   duplicate (Name, Year) rows that differ only by price (likely two formats/editions).
 
 ## movies-dataset-case-study
+
+### 2026-08-22 (3)
+
+- **Analyze phase**: correlations (budget-revenue, budget-roi, budget-rating), genre-level
+  ROI/rating rankings, budget-tier and runtime-tier breakdowns, and release-month seasonality in
+  [`notebooks/02_analyze_data.ipynb`](./movies-dataset-case-study/notebooks/02_analyze_data.ipynb).
+  Key findings: budget strongly predicts revenue (r=0.73) but barely predicts ROI (r=-0.03) or
+  rating (r=0.08); Animation is the rare genre that wins on both median ROI (1.77x) and rating
+  (6.45), while Horror pays off reliably (1.49x ROI at the lowest average budget of any major
+  genre) but rates lowest of all (5.31); the <$5M budget tier posts the highest median ROI
+  (1.93x), roughly double the $5-100M "mid-budget" range; revenue is clearly seasonal, peaking in
+  June/July and Nov/Dec, troughing in Jan/Sep. Full write-up in
+  [`docs/04_analyze.md`](./movies-dataset-case-study/docs/04_analyze.md).
 
 ### 2026-08-22 (2)
 

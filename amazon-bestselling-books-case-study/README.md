@@ -9,8 +9,8 @@ repeat Amazon bestsellers (2009–2019) — to inform acquisition and marketing 
 1. [Ask](./docs/01_ask.md) — business task & stakeholders ✅
 2. [Prepare](./docs/02_prepare.md) — data sources, organization, credibility ✅
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
-4. Analyze — trends & calculations (🚧 next)
-5. Share — visualizations & key findings
+4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
+5. Share — visualizations & key findings (🚧 next)
 6. Act — final recommendations
 
 ## Repo structure
