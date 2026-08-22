@@ -13,7 +13,41 @@ others independent. Most projects follow the full data analysis process: **Ask, 
 
 More projects will be added here as they are completed.
 
-## About me
+## 👋 About Me
 
-Data analytics learner transitioning into the field, with a background touching data engineering / big data
-(see other repositories on this profile). Reach out via [GitHub](https://github.com/ChristianByemba).
+📊 Data Analyst | ML & AI Enthusiast
+
+I'm a Computer Engineering graduate passionate about Data, Machine Learning and Artificial
+Intelligence. My background in software development, databases, IT infrastructure and Big Data
+has given me a broad technical foundation for understanding data-driven systems from end to end.
+
+I'm currently focusing on Data Analytics, Machine Learning and AI, with a strong interest in
+transforming complex datasets into meaningful insights and practical solutions.
+
+My work spans different stages of the data lifecycle:
+**Data Collection → Data Cleaning → Data Processing → Analysis → Visualization → Machine Learning**
+
+### 🎯 What I'm Working Towards
+
+My goal is to grow into a Data Scientist / ML professional, combining strong analytical skills
+with Machine Learning and AI to build solutions for complex real-world problems. I'm particularly
+interested in projects where technology and data can create tangible impact, especially in
+emerging markets.
+
+### 🧠 Beyond the Technical Side
+
+- Analytical thinking & problem solving
+- Collaboration & clear communication
+- Adaptability & continuous learning
+- Curiosity & innovation
+
+### 🌍 Languages
+
+🇫🇷 French · 🇬🇧 English · 🇨🇩 Lingala · Swahili
+
+### 🤝 Let's Connect
+
+I'm open to data & AI projects, collaborations, mentorship and opportunities to learn and build.
+
+🔗 LinkedIn: [Christian Byemba Wabulasa](https://www.linkedin.com/in/christian-byemba-wabulasa-2a2930205/)
+💻 GitHub: [ChristianByemba](https://github.com/ChristianByemba)
