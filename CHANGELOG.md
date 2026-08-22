@@ -5,6 +5,17 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## cyclistic-bike-share-case-study
 
+### 2026-08-22 (3)
+
+- **Analyze phase**: computed ride-length stats, day-of-week / monthly / hourly breakdowns, bike
+  type preference, and weekday-vs-weekend split by rider type in
+  [`notebooks/02_analyze_data.ipynb`](./cyclistic-bike-share-case-study/notebooks/02_analyze_data.ipynb).
+- Small aggregate tables saved to `data/summary/` (committed — reused for Share-phase charts).
+- Key finding: members show a clear commuting pattern (weekday, rush-hour, short/stable rides
+  year-round); casual riders show a leisure pattern (weekend- and summer-skewed, ~63% longer
+  rides, afternoon-peaked, no morning rush). Full write-up in
+  [`docs/04_analyze.md`](./cyclistic-bike-share-case-study/docs/04_analyze.md).
+
 ### 2026-08-22 (2)
 
 - **Process phase**: built two parallel cleaning/merge pipelines —
