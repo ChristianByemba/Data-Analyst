@@ -1,7 +1,7 @@
 # Data Analyst Portfolio — Christian Byemba
 
 This repository is a collection of my data analyst projects and case studies — some from the
-[Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics),
+[Google Data Analytics Professional Certificate]([https://www.coursera.org/professional-certificates/google-data-analytics](https://www.coursera.org/account/accomplishments/specialization/QWFEWV71RFW6)),
 others independent. Most projects follow the full data analysis process: **Ask, Prepare, Process, Analyze, Share, Act**.
 
 ## Projects
