@@ -5,6 +5,18 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## bellabeat-wellness-case-study
 
+### 2026-08-22 (2)
+
+- **Prepare phase**: downloaded the FitBit Fitness Tracker dataset via `kagglehub` and ran a full
+  ROCCC/data-quality pass — documented in
+  [`docs/02_prepare.md`](./bellabeat-wellness-case-study/docs/02_prepare.md).
+- Key findings: only 35 unique users (33 in both periods), no gender data (a major limitation for
+  a women's-wellness product), very uneven completeness across tables (sleep n=24, weight n=8,
+  heart rate n=14), and the first time period is much sparser (~13 logged days/user) than the
+  second (~28.5 days/user).
+- Fixed `.gitignore` to exclude raw CSVs at any depth under `data/raw/` (this dataset ships in
+  subfolders).
+
 ### 2026-08-22
 
 - **Ask phase**: documented the business task and key stakeholders in
