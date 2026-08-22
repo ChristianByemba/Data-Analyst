@@ -7,9 +7,9 @@ venv/
 env/
 
 # Raw datasets (large files — documented in data/raw/README.md, not committed)
-**/data/raw/*.csv
-**/data/raw/*.zip
-**/data/raw/*.xlsx
+**/data/raw/**/*.csv
+**/data/raw/**/*.zip
+**/data/raw/**/*.xlsx
 
 # Processed datasets (large, regenerable by running notebooks/ or sql/ scripts)
 **/data/processed/*.parquet
