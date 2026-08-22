@@ -17,6 +17,7 @@ env/
 # ...except these projects', which are small enough (<100KB total) to commit for easy reuse
 !bellabeat-wellness-case-study/data/processed/*.parquet
 !world-happiness-case-study/data/processed/*.parquet
+!amazon-bestselling-books-case-study/data/processed/*.parquet
 
 # OS / editor
 .DS_Store

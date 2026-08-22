@@ -5,6 +5,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## amazon-bestselling-books-case-study
 
+### 2026-08-22 (2)
+
+- **Process phase**: two cross-validated pipelines (pandas notebook + DuckDB SQL) standardize
+  column names, canonicalize the one near-duplicate title found in Prepare (merging it into a
+  10-year repeater), and compute `times_on_list` per title via a `groupby().nunique()` /
+  window-function pair. Both pipelines agree exactly — no cross-engine discrepancy found.
+  Documented in
+  [`docs/03_process.md`](./amazon-bestselling-books-case-study/docs/03_process.md).
+
 ### 2026-08-22
 
 - **Prepare phase**: ROCCC assessment and data-quality findings in
