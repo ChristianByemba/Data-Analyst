@@ -3,6 +3,21 @@
 All notable changes to this repository are documented here, organized by project. Format loosely
 follows [Keep a Changelog](https://keepachangelog.com/).
 
+## world-happiness-case-study, avocado-prices-case-study, movies-dataset-case-study, amazon-bestselling-books-case-study
+
+### 2026-08-22
+
+- Set up 4 new project folders for Google Data Analytics Capstone Case Study 3 ("Follow Your Own
+  Case Study Path") — each investigates one of the case study's 4 suggested public datasets, with
+  its own client scenario and business task since (unlike Cyclistic/Bellabeat) this case study
+  requires the analyst to choose the topic:
+  - **World Happiness Report** — which factors most strongly associate with national happiness?
+  - **Avocado Prices** — how do prices/volume vary by region, season, and type?
+  - **Movies Dataset** — what predicts a movie's financial return and audience rating?
+  - **Amazon Bestselling Books** — what characterizes a repeat Amazon bestseller?
+- Wrote the Ask-phase business task and stakeholders for all 4 (`docs/01_ask.md` in each), and
+  added them to the portfolio README.
+
 ## bellabeat-wellness-case-study
 
 ### 2026-08-22 (6)
