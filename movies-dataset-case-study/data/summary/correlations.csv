@@ -1,0 +1,8 @@
+var_a,var_b,r,n
+budget,revenue,0.7303,5375
+budget,roi,-0.0254,5307
+budget,vote_average_valid,0.0758,8790
+runtime,vote_average_valid,0.1095,42376
+vote_count,vote_average_valid,0.1224,42534
+roi,vote_average_valid,0.0077,5303
+popularity,vote_average_valid,0.0984,42534
