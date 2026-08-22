@@ -5,6 +5,15 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## amazon-bestselling-books-case-study
 
+### 2026-08-22 (4)
+
+- **Share phase**: built 5 client-facing visualizations (times_on_list distribution, reviews by
+  repeat status, genre repeat rate, price trend, top authors) using a blue/orange two-category
+  palette and a sequential ramp for ordinal rankings, in
+  [`notebooks/03_share_visualizations.ipynb`](./amazon-bestselling-books-case-study/notebooks/03_share_visualizations.ipynb).
+  PNGs in `images/`, written up in
+  [`docs/05_share.md`](./amazon-bestselling-books-case-study/docs/05_share.md).
+
 ### 2026-08-22 (3)
 
 - **Analyze phase**: repeat-title distribution, genre/price/rating/reviews vs. repeat status, top
