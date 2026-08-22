@@ -11,6 +11,10 @@ env/
 **/data/raw/*.zip
 **/data/raw/*.xlsx
 
+# Processed datasets (large, regenerable by running notebooks/ or sql/ scripts)
+**/data/processed/*.parquet
+**/data/processed/*.csv
+
 # OS / editor
 .DS_Store
 Thumbs.db
