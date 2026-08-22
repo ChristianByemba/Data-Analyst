@@ -3,6 +3,15 @@
 All notable changes to this repository are documented here, organized by project. Format loosely
 follows [Keep a Changelog](https://keepachangelog.com/).
 
+## bellabeat-wellness-case-study
+
+### 2026-08-22
+
+- **Ask phase**: documented the business task and key stakeholders in
+  [`docs/01_ask.md`](./bellabeat-wellness-case-study/docs/01_ask.md) — analyze public FitBit smart
+  device usage data to inform Bellabeat's marketing strategy for one of its products.
+- Set up the project folder structure and added it to the portfolio README.
+
 ## cyclistic-bike-share-case-study
 
 ### 2026-08-22 (5)

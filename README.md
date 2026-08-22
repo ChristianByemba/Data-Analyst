@@ -9,6 +9,7 @@ others independent. Most projects follow the full data analysis process: **Ask, 
 | Project | Description | Tools | Status |
 |---|---|---|---|
 | [Cyclistic Bike-Share Case Study](./cyclistic-bike-share-case-study) | How do annual members and casual riders use a Chicago bike-share service differently? Analysis to support a marketing strategy converting casual riders into members. | Python (pandas), SQL | ✅ Complete |
+| [Bellabeat Wellness Case Study](./bellabeat-wellness-case-study) | What do public smart-device usage trends suggest for Bellabeat's marketing strategy? | Python (pandas), SQL | 🚧 In progress |
 
 More projects will be added here as they are completed.
 
