@@ -43,7 +43,7 @@ emerging markets.
 
 ### 🌍 Languages
 
-🇫🇷 French · 🇬🇧 English · 🇨🇩 Lingala · Swahili
+🇫🇷 French · 🇬🇧 English · 🇵🇹 Portuguese · 🇨🇩 Lingala · Swahili
 
 ### 🤝 Let's Connect
 
