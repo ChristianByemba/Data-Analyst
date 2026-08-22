@@ -13,7 +13,13 @@ This project follows the six-phase data analysis process:
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
 5. [Share](./docs/05_share.md) — visualizations & key findings ✅
-6. Act — final recommendations (🚧 next)
+6. [Act](./docs/06_act.md) — final recommendations ✅
+
+## Top recommendation
+
+Lead marketing content with **"interrupt sitting," not "hit your step goal"** — sedentary time
+predicts poor sleep more than 3x as strongly as step count does in this data. Full reasoning and
+2 more recommendations in [docs/06_act.md](./docs/06_act.md).
 
 ## Key finding
 

@@ -5,6 +5,14 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## bellabeat-wellness-case-study
 
+### 2026-08-22 (6)
+
+- **Act phase**: wrote the final conclusion and top 3 content recommendations in
+  [`docs/06_act.md`](./bellabeat-wellness-case-study/docs/06_act.md) — lead with "interrupt
+  sitting" messaging instead of step-count goals, turn the sedentary/sleep link into a
+  personalized membership feature, and schedule engagement content for the 6–8 PM peak window.
+- **Case study complete** — marked as ✅ in the main portfolio README.
+
 ### 2026-08-22 (5)
 
 - **Share phase**: built 5 executive-facing visualizations (user activity segmentation,
