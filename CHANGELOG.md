@@ -5,6 +5,16 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## bellabeat-wellness-case-study
 
+### 2026-08-22 (5)
+
+- **Share phase**: built 5 executive-facing visualizations (user activity segmentation,
+  time-of-day intensity breakdown, correlation comparison, sedentary-vs-sleep scatter, hourly
+  activity pattern) using a single blue sequential ramp for ordinal data and a blue/red diverging
+  scheme for correlation signs, in
+  [`notebooks/03_share_visualizations.ipynb`](./bellabeat-wellness-case-study/notebooks/03_share_visualizations.ipynb).
+  PNGs in `images/`, written up in
+  [`docs/05_share.md`](./bellabeat-wellness-case-study/docs/05_share.md).
+
 ### 2026-08-22 (4)
 
 - **Analyze phase**: computed activity descriptive stats, sedentary/active time breakdown, a

@@ -12,8 +12,15 @@ This project follows the six-phase data analysis process:
 2. [Prepare](./docs/02_prepare.md) — data sources, organization, credibility ✅
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
-5. Share — visualizations & key findings (🚧 next)
-6. Act — final recommendations
+5. [Share](./docs/05_share.md) — visualizations & key findings ✅
+6. Act — final recommendations (🚧 next)
+
+## Key finding
+
+![Correlation comparison](./images/03_correlation_comparison.png)
+
+Sedentary time correlates with poor sleep (r=-0.60) far more strongly than step count does
+(r=-0.19) — see [docs/05_share.md](./docs/05_share.md) for the full set of visualizations.
 
 ## Repo structure
 
