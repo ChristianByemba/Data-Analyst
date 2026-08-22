@@ -5,6 +5,18 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## world-happiness-case-study, avocado-prices-case-study, movies-dataset-case-study, amazon-bestselling-books-case-study
 
+### 2026-08-22 (2)
+
+- Downloaded raw data for all 4 projects via `kagglehub` (World Happiness: 5 yearly CSVs; Avocado
+  Prices: 1 CSV; Movies Dataset: `movies_metadata`/`credits`/`keywords`/`links_small`/`ratings_small`
+  — the 677MB full `ratings.csv` and full `links.csv` were skipped as unnecessary for a
+  movie-level analysis; Amazon Books: 1 CSV). `data/raw/README.md` added to each.
+- **World Happiness — Prepare phase**: ROCCC assessment and data-quality findings in
+  [`docs/02_prepare.md`](./world-happiness-case-study/docs/02_prepare.md). Key finding: column
+  names and available fields (notably `Region`) differ across all 5 years, and country naming is
+  inconsistent (`Macedonia`→`North Macedonia`, `Trinidad and Tobago`→`Trinidad & Tobago`, etc.) —
+  141 of 170 total distinct countries appear in every year.
+
 ### 2026-08-22
 
 - Set up 4 new project folders for Google Data Analytics Capstone Case Study 3 ("Follow Your Own

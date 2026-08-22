@@ -7,8 +7,8 @@ most strongly associated with national happiness, and does that hold across regi
 ## Process
 
 1. [Ask](./docs/01_ask.md) — business task & stakeholders ✅
-2. Prepare — data sources, organization, credibility
-3. Process — cleaning & transformation
+2. [Prepare](./docs/02_prepare.md) — data sources, organization, credibility ✅
+3. Process — cleaning & transformation (🚧 next)
 4. Analyze — trends & calculations
 5. Share — visualizations & key findings
 6. Act — final recommendations
