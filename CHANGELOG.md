@@ -27,6 +27,17 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## movies-dataset-case-study
 
+### 2026-08-22 (2)
+
+- **Process phase**: two cross-validated pipelines (pandas notebook + DuckDB SQL) drop the 6
+  corrupted/shifted rows and 30 duplicate-id rows, parse release_date and the stringified genres
+  column, null out budget/revenue==0, and compute roi/profit where both exceed $1,000 (5,307
+  rows). Found and resolved a real cross-engine discrepancy: DuckDB's strict CSV parser cannot
+  load the raw file at all (a multi-line quoted overview field breaks column-count validation on
+  the same 6 corrupted rows) — ignore_errors = true makes it skip them at parse time instead,
+  landing on the same final counts as pandas by a different mechanism. Documented in
+  [`docs/03_process.md`](./movies-dataset-case-study/docs/03_process.md).
+
 ### 2026-08-22
 
 - **Prepare phase**: ROCCC assessment and data-quality findings in
