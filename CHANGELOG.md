@@ -5,6 +5,16 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## bellabeat-wellness-case-study
 
+### 2026-08-22 (3)
+
+- **Process phase**: built two parallel pipelines (pandas notebook + DuckDB SQL) that combine the
+  two collection periods, resolve a real conflict on the overlapping date (2016-04-12 — Period 1's
+  export cuts off mid-day), flag (not drop) 133 zero-step days, dedupe 3 sleep rows, and merge
+  activity + sleep. Cross-validated exactly between both pipelines. Documented in
+  [`docs/03_process.md`](./bellabeat-wellness-case-study/docs/03_process.md).
+- Processed Parquet outputs are small (<100KB) and committed directly (`.gitignore` exception
+  added for this project only).
+
 ### 2026-08-22 (2)
 
 - **Prepare phase**: downloaded the FitBit Fitness Tracker dataset via `kagglehub` and ran a full
