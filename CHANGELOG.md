@@ -5,6 +5,18 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## bellabeat-wellness-case-study
 
+### 2026-08-22 (4)
+
+- **Analyze phase**: computed activity descriptive stats, sedentary/active time breakdown, a
+  4-band user activity segmentation, sleep stats, cross-metric correlations, and an hourly
+  activity pattern (from `hourlySteps_merged.csv`) in
+  [`notebooks/02_analyze_data.ipynb`](./bellabeat-wellness-case-study/notebooks/02_analyze_data.ipynb).
+- Key finding: 80% of users average under 10,000 steps/day, 81.9% of tracked time is sedentary,
+  and **sedentary minutes correlate with poor sleep (r=-0.601) far more strongly than step count
+  does (r=-0.190)** — reframing the opportunity from "more steps" to "less sedentary time."
+  Activity peaks in the early evening (6-8 PM). Full write-up in
+  [`docs/04_analyze.md`](./bellabeat-wellness-case-study/docs/04_analyze.md).
+
 ### 2026-08-22 (3)
 
 - **Process phase**: built two parallel pipelines (pandas notebook + DuckDB SQL) that combine the

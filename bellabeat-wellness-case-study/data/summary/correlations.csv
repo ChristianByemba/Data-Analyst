@@ -1,0 +1,5 @@
+pair,correlation
+steps vs sedentary_minutes,-0.356
+steps vs calories,0.58
+sedentary_minutes vs minutes_asleep,-0.601
+steps vs minutes_asleep,-0.19
