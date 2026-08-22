@@ -3,6 +3,19 @@
 All notable changes to this repository are documented here, organized by project. Format loosely
 follows [Keep a Changelog](https://keepachangelog.com/).
 
+## amazon-bestselling-books-case-study
+
+### 2026-08-22
+
+- **Prepare phase**: ROCCC assessment and data-quality findings in
+  [`docs/02_prepare.md`](./amazon-bestselling-books-case-study/docs/02_prepare.md). Key finding:
+  550 rows compress to 351 distinct titles, of which 96 (27%) are repeat bestsellers appearing in
+  more than one year (max: 10 years for the APA Publication Manual) — this repeat structure is
+  the central signal for the business question, tracked going forward as `times_on_list`. Also
+  caught one real near-duplicate title (a capitalization split on *The 5 Love Languages*) that
+  would have undercounted a 10-year repeater as two separate 5-year ones, and 3 same-year
+  duplicate (Name, Year) rows that differ only by price (likely two formats/editions).
+
 ## avocado-prices-case-study
 
 ### 2026-08-22 (4)
