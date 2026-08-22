@@ -5,6 +5,14 @@ follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## world-happiness-case-study
 
+### 2026-08-22 (6)
+
+- **Act phase**: final conclusion and top 3 recommendations in
+  [`docs/06_act.md`](./world-happiness-case-study/docs/06_act.md) — prioritize economic-security
+  and healthcare-access programs over generosity-framed ones, and direct the largest budget share
+  to Sub-Saharan Africa.
+- **Case study complete** — marked as ✅ in the main portfolio README.
+
 ### 2026-08-22 (5)
 
 - **Share phase**: built 5 client-facing visualizations (factor correlations, GDP-vs-happiness

@@ -11,7 +11,14 @@ most strongly associated with national happiness, and does that hold across regi
 3. [Process](./docs/03_process.md) — cleaning & transformation ✅
 4. [Analyze](./docs/04_analyze.md) — trends & calculations ✅
 5. [Share](./docs/05_share.md) — visualizations & key findings ✅
-6. Act — final recommendations (🚧 next)
+6. [Act](./docs/06_act.md) — final recommendations ✅
+
+## Top recommendation
+
+Prioritize **economic-security and healthcare-access programs** over generosity- or
+civic-engagement-framed initiatives — GDP per capita and health/life expectancy are the strongest,
+most consistent correlates of happiness in this data. Full reasoning and 2 more recommendations in
+[docs/06_act.md](./docs/06_act.md).
 
 ## Key finding
 
